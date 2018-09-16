@@ -4,12 +4,14 @@
         <meta charset="UTF-8">
         <title>booking</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <ul>
                 <li><a href="index.html">Start</a></li>
                 <li><a class="active" href="bookParking.html">Boka parkering</a></li>
                 <li><a href="services.html">Våra övriga tjänster</a></li>
                 <li><a href="contact.html">Kontakt</a></li>
                 <li><a href="findUs.html">Hitta till oss</a></li>
+                <li class="login"><a href="login.html">Logga in</a></li>
             </ul>
 
 
@@ -21,7 +23,16 @@
                 <img src="images/bookParkingImage.jpg" alt="Book Parking Image">
             </div>
 
-            <h1>Bokning Sidan! </h1>
+            <h1>Parkera på Deluxe parkering </h1>
+                <div class="container1">
+                    <form>
+                        <label >Infart (datum och tid):<i class="fa fa-calendar"></i> </label>
+                        <input type="datetime-local" name="bdaytime"><br/>
+                        <p>Utfart (datum och tid):</p>
+                        <input type="datetime-local" name="bdaytime"><br/>
+                        <input type="submit" value="Boka">
+                    </form>
+                 </div>
 
             <div class="footer">
                 <p> &#169 Copyright Adam Sultan 2018</p>
