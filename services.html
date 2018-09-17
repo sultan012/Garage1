@@ -4,25 +4,52 @@
     <meta charset="UTF-8">
     <title>Services</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <ul>
-        <li><a href="index.html">Start</a></li>
-        <li><a href="bookParking.html">Boka parkering</a></li>
-        <li><a class="active" href="services.html">Våra övriga tjänster</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
-        <li><a href="findUs.html">Hitta till oss</a></li>
-        <li class="login"><a href="login.html">Logga in</a></li>
-    </ul>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
 <body>
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home fa-lg"></i>Start</a></li>
+            <li><a href="bookParking.html"><i class="fa fa-automobile fa-lg"></i>Boka parkering</a></li>
+            <li><a class="active" href="services.html"><i class="fa fa-wrench fa-lg"></i>Våra övriga tjänster</a></li>
+            <li><a href="contact.html"><i class="fa fa-envelope fa-lg"></i>Kontakt</a></li>
+            <li><a href="findUs.html"><i class="fa fa-map-marker fa-lg"></i>Hitta till oss</a></li>
+            <li class="login"><a href="login.html"><i class="fa fa-user-circle-o fa-lg"></i>Logga in</a></li>
+        </ul>
         <div>
             <img src="images/servicesImage.jpg" alt="Services Image">
         </div>
 
-        <h1>Våra övriga tjänster </h1>
+        <h1>Boka bilservice, reparation eller däckbyte online </h1>
+        <div class="left">
+            <div class="container1">
+               <div class="regnr">
+                       <span>Regnr</span>
+                            <input class="form-control sub_plate_no form-start " placeholder="ABC 123" maxlength="6" id="vehicleNumberField" name="plateNumber" autofocus="">
+               </div>
 
-        <div class="footer">
+                        <label class="container2">Boka bilservice
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container2">Boka reparation
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container2">Boka däckbyte
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container2">Boka biltvätt
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <input type="submit" value="Boka">
+
+
+            <div class="footer">
             <p> &#169 Copyright Adam Sultan 2018</p>
         </div>
 
