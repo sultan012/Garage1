@@ -3,6 +3,7 @@ body {
 
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,6 +39,22 @@ li:last-child {
 h1 {
     color: black;
     text-align: center;
+    font-family: 'Ruslan Display', cursive;
+    font-size: 60px;
+    font-weight: normal;
+}
+h2{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    font-size: 45px;
+
+}
+h3{
+    color: black;
+    text-align: center;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 30px;
 }
 
 p {
@@ -69,6 +86,9 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 input[type=submit]:hover {
@@ -137,7 +157,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
+    background-color: darkblue;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -171,6 +191,7 @@ img.avatar {
 .login{
     float:right
 }
+
 .containerLogin {
     padding: 16px;
     background-color:#f1f1f1;
@@ -254,18 +275,20 @@ span.psw {
 }
 
 ul, i{
-    color: cyan;
+    color: beige;
     padding-right: 7px;
 }
 
 .bdaytime {
-    padding-left: 5px;
-    margin: 10px 20px;
+    float: right;
+    margin-right: 147px;
+    margin-top: -10px;
+    text-align: center;
 }
 .container1 label{
-    color: blue;
+    color: darkblue;
     font-weight: bold;
-    margin:25px ;
+    margin:20px ;
 }
 /* The container2 */
 .container2 {
@@ -296,7 +319,7 @@ ul, i{
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: maroon;
+    background-color: burlywood;
 }
 
 /* On mouse-over, add a grey background color */
@@ -306,7 +329,7 @@ ul, i{
 
 /* When the checkbox is checked, add a blue background */
 .container2 input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: maroon;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -343,4 +366,19 @@ ul, i{
 }
 .regnr input{
     font-size: x-large;
+}
+
+.test button:after{
+    content: 'some content';
+    display: block;
+}
+.test button:hover:after,
+.test button:focus:after,
+.test button:active:after{
+    content: 'some other content';
+    display: block;
+}
+
+.fa fa-phone{
+    color: maroon;
 }

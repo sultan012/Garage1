@@ -5,10 +5,11 @@
         <title>booking</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Merienda|Ruslan+Display" rel="stylesheet">
 
             <ul>
-                <li><a class="active" href="index.html"><i class="fa fa-home fa-lg"></i>Start</a></li>
-                <li><a href="bookparking.html"><i class="fa fa-automobile fa-lg"></i>Boka parkering</a></li>
+                <li><a href="index.html"><i class="fa fa-home fa-lg"></i>Start</a></li>
+                <li><a class="active" href="bookparking.html"><i class="fa fa-automobile fa-lg"></i>Boka parkering</a></li>
                 <li><a href="services.html"><i class="fa fa-wrench fa-lg"></i>Våra övriga tjänster</a></li>
                 <li><a href="contact.html"><i class="fa fa-envelope fa-lg"></i>Kontakt</a></li>
                 <li><a href="findus.html"><i class="fa fa-map-marker fa-lg"></i>Hitta till oss</a></li>
@@ -23,14 +24,14 @@
                 <img src="images/bookParkingImage.jpg" alt="Book Parking Image">
             </div>
 
-            <h1>Parkera på Deluxe parkering </h1>
+            <h2>Parkera på Deluxe parkering </h2>
                 <div class="container1">
                     <form>
-                        <label >Infart (datum och tid):</label>
+                        <label  class="container2">Infart (datum och tid):</label>
                         <input type="datetime-local" class="bdaytime"><br/>
-                        <label>Utfart (datum och tid):</label>
+                        <label class="container2">Utfart (datum och tid):</label>
                         <input type="datetime-local" class="bdaytime"><br/>
-                        <input type="submit" value="Boka">
+                        <input onclick="window.location.href='index.html'" type="submit" value="Boka">
                     </form>
                  </div>
 
