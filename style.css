@@ -1,5 +1,6 @@
 body {
     background-image: url(images/homebg.jpg);
+    width: 100%;
 
 }
 
@@ -63,7 +64,7 @@ p {
 
 img {
     padding: 10px 5px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
