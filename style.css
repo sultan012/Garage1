@@ -400,3 +400,7 @@ ul, i{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.center {
+    text-align: center;
+}
